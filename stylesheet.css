@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.ALLContents {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+
+.top {
+    position: relative;
+}
+
+.top img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.top p {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    color: white;
+}
+
+#nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: wheat;
+    font-size: 150%;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    padding: 0;
+    }
+
+#profile h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#profile ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#skill h1{
+    display: flex;
+    justify-content: center;
+}
+
+#skill ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+.logo{
+    height: 256px;
+    width: 256px;
+    padding: 100px;
+}
+
+#skill ul li h3{
+    text-align: center;
+    font-size: 60px;
+}
+
+.level{
+    text-align: center;
+    width: 485px;
+    height: 159px;
+    padding: 10px;
+
+}
+
+#works h1{
+    display: flex;
+    justify-content: center;
+}
+
+#works p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#works a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    
+}
+
+#contact h1{
+    display: flex;
+    justify-content: center;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
